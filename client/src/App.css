@@ -1,0 +1,306 @@
+
+body{
+ 
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  
+  
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+}
+
+
+
+
+  
+
+header {
+font-family: 'Cinzel Decorative', cursive;
+background-color: #000000;
+opacity: 60%;
+
+
+
+}
+header p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  
+}
+
+footer{
+  
+  font-family: 'Cinzel Decorative', cursive;
+background-color: #000000;
+opacity: 60%;
+
+}
+
+ /* footer{
+  font-weight: bold;
+  font-size: 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #8E8E8E;
+  text-align: center;
+  overflow: auto;
+
+  
+
+  
+
+}
+footer p:after {
+  content: "";
+  display: inline-block;
+  background-image: url('./images/CO2\ logo\ with\ smoke.png');
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 0px;
+  float: left;
+  text-align: top;
+  margin-left: 20px;
+  
+
+}
+.clear { clear: both; height: 80px; }
+
+<div class="clear"></div>
+<div id="footer">FOOTER CONTENT</div>
+
+
+
+
+
+footer{
+  padding:50px 0;
+  color:#8E8E8E;
+  background-color: #000000;
+}
+
+footer .copyright{
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+
+}
+footer h3{
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+  font-family: "COMCAST";
+}
+
+footer .Company{
+ 
+}
+   */
+
+
+ 
+
+
+ /* FORM */
+ @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+.form-style .form-label{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: 'Cinzel Decorative', cursive; 
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cinzel Decorative', cursive;  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color:white;  
+  margin: 0;
+}
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* background-image: 
+    
+    url(https://c4.wallpaperflare.com/wallpaper/293/540/31/dolomites-mountain-range-is-located-in-the-northeast-of-italy-hd-wallpaper-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-label {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.Calculate-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: transparent;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+ 
+
+/* TOP BUTTON */
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#000000 ; /* Set a background color */
+  color: #8E8E8E; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #257025; /* Add a dark-grey background on hover */
+}
