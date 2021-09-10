@@ -70,15 +70,15 @@ function App() {
    
   
   <header> 
-    <h2>Carbon footprint calculator, designed to help you make a real difference</h2> 
+    <h2>A Carbon footprint calculator, designed to help you make a positive change</h2> 
   <p>
     <div>
   </div>
   <div>
-  To have the best chance of avoiding a 2℃ rise in global temperatures, the average global carbon footprint per year needs to drop under 2 tons by 2050.
+  To have the best chance of avoiding a 2℃ rise in global temperatures, the average global carbon footprint per year needs to drop to under 2 tonnes by 2050.
   </div>
   <div>
-  Lowering individual carbon footprints from 16 tons to 2 tons doesn’t happen overnight! By making small changes to our actions, like eating less meat, taking less connecting flights and line drying our clothes, we can start making a big difference.
+  By making small changes to our daily lives, such as eating less meat, taking fewer flights and line drying our clothes, we can start to make a real change.
   </div>
 
 </p> 
@@ -104,7 +104,7 @@ function App() {
   Developed by Blue Sky Development: 
   </div>
   <div>
-  Sergio Eneide, Craig Smith, Stephanie Lucas, Stephen Corcoran & Sara Luis de Jesus
+  New team TBC
   </div>
 
   <div className="Company">
